@@ -1,14 +1,106 @@
+
+---
+
 # Enterprise Sales & Operations Intelligence System
 
-Synthetic enterprise CRM and sales operations analytics project using Snowflake-style schema, Power BI dashboard planning, and automated executive reporting logic.
+Enterprise analytics platform designed to centralize CRM, revenue, and operational datasets into automated KPI dashboards and executive reporting workflows for operational visibility and business performance tracking.
 
-## What is included
-- `data/accounts.csv`: 6,000 account records.
-- `data/opportunities.csv`: 50,000 opportunity records with funnel stages, sales cycle, and weighted pipeline.
-- `data/sales_activities.csv`: 18,000 sales activity records.
-- `sql/snowflake_schema.sql`: warehouse schema and KPI view.
-- `scripts/weekly_exec_alerts.py`: automated reporting alert logic.
-- `docs/power_bi_dashboard_blueprint.md`: dashboard pages and DAX measures.
+---
 
-## Portfolio angle
-This project demonstrates CRM analytics, ETL-ready data modeling, executive KPI reporting, sales funnel analysis, and operations visibility across regions, segments, reps, and lead sources.
+## Tech Stack
+
+Python | Power BI | Snowflake | SQL | Airbyte | Power Automate | Streamlit
+
+---
+
+## Dashboard Preview
+
+(Add dashboard screenshots or GIFs here)
+
+---
+
+## Business Problem
+
+Organizations often struggle with disconnected CRM, sales, and operational data, limiting visibility into revenue performance, conversion efficiency, and operational bottlenecks.
+
+---
+
+## Solution
+
+Built a centralized enterprise intelligence system integrating synthetic CRM and operational datasets into automated ETL pipelines, KPI dashboards, and reporting workflows to improve business visibility and executive decision-making.
+
+---
+
+## Key Features
+
+- Automated ETL pipelines
+- CRM analytics workflows
+- Revenue performance dashboards
+- Sales funnel analysis
+- Conversion tracking
+- Executive KPI reporting
+- Automated operational alerts
+
+---
+
+## Architecture Overview
+
+CRM / Sales Data
+      ↓
+Airbyte ETL Pipelines
+      ↓
+Snowflake Data Warehouse
+      ↓
+Power BI / Streamlit Dashboards
+      ↓
+Power Automate Reporting Workflows
+
+---
+
+## KPI Metrics
+
+- Revenue Growth
+- Pipeline Conversion Rate
+- Sales Performance
+- Operational Efficiency
+- Customer Acquisition Trends
+- Regional Business Performance
+
+---
+
+## Repository Structure
+
+/data
+/dashboard_app
+/sql
+/etl
+/assets
+/docs
+
+---
+
+## How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Enterprise-Sales-Operations-Intelligence-System.git
+cd Enterprise-Sales-Operations-Intelligence-System
+
+Create Virtual Environment
+
+Mac/Linux:
+
+python3 -m venv venv
+source venv/bin/activate
+
+Windows:
+
+python -m venv venv
+venv\Scripts\activate
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run the Dashboard
+streamlit run app.py
