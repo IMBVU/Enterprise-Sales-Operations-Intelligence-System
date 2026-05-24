@@ -15,7 +15,8 @@ Python | Power BI | Snowflake | SQL | Airbyte | Power Automate | Streamlit
 
 ## Dashboard Preview
 
-(Add dashboard screenshots or GIFs here)
+<img width="1512" height="982" alt="Enterprise SS" src="https://github.com/user-attachments/assets/21c3ff2d-3c5c-4b24-8bfc-0a34cff13f1d" />
+
 
 ---
 
